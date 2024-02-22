@@ -37,6 +37,7 @@
                 contentType: false,
                 success: function (response) {
                     $('#imageContainer').html('<img src="' + response + '" alt="Uploaded Image">');
+                    alert("Uploaded Successfully");
                 },
                 error: function (xhr, status, error) {
 
