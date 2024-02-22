@@ -12,7 +12,7 @@
 
 - Run the following commands
     ```Bash
-       cd register-form
+       cd upload
        composer install
        php artisan key:generate
     ```
